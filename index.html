@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xenosaga Episode I — Story Mode</title>
+  <title>Xenosaga — Story Mode</title>
   <style>
     :root { color-scheme: light dark; }
     body { margin: 0 auto; max-width: 42rem; padding: 2.5rem 1.25rem 4rem; font: 1.05rem/1.55 system-ui, sans-serif; }
@@ -19,14 +19,14 @@
   </style>
 </head>
 <body>
-  <h1>Xenosaga Episode I — Story Mode</h1>
-  <p>A free, open-source cheat for the USA PlayStation 2 game. Fan project. Not made by or affiliated with Monolith Soft, Namco, or Bandai Namco. Made with Grok by xAI. <a href="https://github.com/dunjeon/XenosagaEpisodeI-StoryMode">MIT license</a>.</p>
-  <p><a class="download" href="https://github.com/dunjeon/XenosagaEpisodeI-StoryMode/releases/latest">Download the latest release</a></p>
+  <h1>Xenosaga — Story Mode</h1>
+  <p>A free, open-source cheat for the USA PlayStation 2 games Xenosaga Episode I, Episode II, and Episode III. Fan project. Not made by or affiliated with Monolith Soft, Namco, or Bandai Namco. Made with Grok by xAI. <a href="https://github.com/dunjeon/Xenosaga-StoryMode">MIT license</a>.</p>
+  <p><a class="download" href="https://github.com/dunjeon/Xenosaga-StoryMode/releases/latest">Download the latest release</a></p>
 
   <h2>Install</h2>
   <ol>
     <li>Close PCSX2.</li>
-    <li>Copy <code>cheats/SLUS-20469_6D1276AB.pnach</code> into the PCSX2 cheats folder.</li>
+    <li>Copy the <code>.pnach</code> files from <code>cheats/</code> into the PCSX2 cheats folder.</li>
     <li>Right-click the game, open Properties, then Cheats. Turn on Enable Cheats for this game, and tick Story Mode or Easy Mode.</li>
   </ol>
   <pre>Linux, and the AppImage:  ~/.config/PCSX2/cheats/
@@ -40,6 +40,17 @@ Flatpak:                   ~/.var/app/net.pcsx2.PCSX2/config/PCSX2/cheats/</pre>
     </tbody>
   </table>
   <p>Tick one. Healing and EP costs stay the same. A hit still does at least 1.</p>
-  <p class="note">USA disc only. Serial SLUS-20469, CRC 6D1276AB. Source and releases: <a href="https://github.com/dunjeon/XenosagaEpisodeI-StoryMode">github.com/dunjeon/XenosagaEpisodeI-StoryMode</a></p>
+  <table>
+    <thead><tr><th>Game</th><th>Disc</th><th>Serial</th><th>CRC</th></tr></thead>
+    <tbody>
+      <tr><td>Episode I</td><td>—</td><td><code>SLUS-20469</code></td><td><code>6D1276AB</code></td></tr>
+      <tr><td>Episode II</td><td>1</td><td><code>SLUS-20892</code></td><td><code>EB39ABEC</code></td></tr>
+      <tr><td>Episode II</td><td>2</td><td><code>SLUS-21133</code></td><td><code>EB39ABEC</code></td></tr>
+      <tr><td>Episode III</td><td>1</td><td><code>SLUS-21389</code></td><td><code>2088950A</code></td></tr>
+      <tr><td>Episode III</td><td>2</td><td><code>SLUS-21417</code></td><td><code>2088950A</code></td></tr>
+    </tbody>
+  </table>
+  <p>Episode II and Episode III each have two discs and one cheat. The two files for a game are the same code under each disc's serial. Booting a disc loads that file. A disc swap during the game keeps the cheat from the disc you booted.</p>
+  <p class="note">USA discs. Source and releases: <a href="https://github.com/dunjeon/Xenosaga-StoryMode">github.com/dunjeon/Xenosaga-StoryMode</a></p>
 </body>
 </html>

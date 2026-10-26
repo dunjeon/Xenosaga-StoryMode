@@ -1,6 +1,6 @@
-Xenosaga Episode I — Story Mode
+Xenosaga — Story Mode
 
-Close PCSX2. Copy cheats/SLUS-20469_6D1276AB.pnach into the PCSX2 cheats folder.
+Close PCSX2. Copy the .pnach files from cheats/ into the PCSX2 cheats folder.
 
 Linux, including this machine's AppImage:
 ~/.config/PCSX2/cheats/
@@ -18,6 +18,14 @@ Easy Mode: you deal 2x damage and take 1/2.
 
 Healing and EP costs stay the same. A hit still does at least 1.
 
-USA disc only. Serial SLUS-20469, CRC 6D1276AB.
+USA discs.
+
+Episode I:                SLUS-20469, CRC 6D1276AB
+Episode II disc 1:       SLUS-20892, CRC EB39ABEC
+Episode II disc 2:       SLUS-21133, CRC EB39ABEC
+Episode III disc 1:      SLUS-21389, CRC 2088950A
+Episode III disc 2:      SLUS-21417, CRC 2088950A
+
+Episode II and Episode III each use one cheat, saved under both disc serials. Booting a disc loads that disc's file. A disc swap during the game keeps the cheat that loaded with the boot disc.
 
 Made with Grok by xAI.
