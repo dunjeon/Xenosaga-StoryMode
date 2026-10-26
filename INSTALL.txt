@@ -1,25 +1,22 @@
 Xenosaga Episode I — Story Mode
 
-Close PCSX2. Drag the patches folder onto your PCSX2 folder, into the same place as the patches folder that is already there. Replace the file when asked.
-
-The PCSX2 folder is the one Settings, Folders calls the Patches directory.
+Close PCSX2. Copy cheats/SLUS-20469_6D1276AB.pnach into the PCSX2 cheats folder.
 
 Linux, including this machine's AppImage:
-~/.config/PCSX2/
+~/.config/PCSX2/cheats/
 
 Windows:
-Documents/PCSX2/
+Documents/PCSX2/cheats/
 
 Flatpak:
-~/.var/app/net.pcsx2.PCSX2/config/PCSX2/
+~/.var/app/net.pcsx2.PCSX2/config/PCSX2/cheats/
 
-Start the game. Story Mode is on every time. There is no cheat box to tick, and it is still on after you quit. Enable Patches is the default and must stay on.
+Right-click the game, open Properties, then Cheats. Turn on Enable Cheats there, and tick Story Mode or Easy Mode. Tick one.
 
-Your hits deal 3x damage. You take 1/4 damage. Healing and EP costs stay the same. A hit still does at least 1. The floating number can still show the original damage. The HP bar is the one that changed.
+Story Mode: you deal 3x damage and take 1/4.
+Easy Mode: you deal 2x damage and take 1/2.
 
-To use Easy Mode instead (2x damage dealt, 1/2 damage taken), replace that same pnach file with optional/easy-mode/SLUS-20469_6D1276AB.pnach. Do not keep both.
-
-To turn it off, delete SLUS-20469_6D1276AB.pnach from the patches folder.
+Healing and EP costs stay the same. A hit still does at least 1.
 
 USA disc only. Serial SLUS-20469, CRC 6D1276AB.
 

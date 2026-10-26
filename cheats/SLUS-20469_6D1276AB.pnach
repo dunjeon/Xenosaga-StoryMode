@@ -1,0 +1,54 @@
+gametitle=Xenosaga Episode I - Der Wille zur Macht (USA) [SLUS-20469] [6D1276AB]
+
+[Cheats\Story Mode]
+author=dunjeon
+description=Deal 3x damage and take 1/4. Tick this or Easy Mode, not both. Healing and EP stay the same. A hit still does at least 1.
+patch=1,EE,D0A1249A,extended,16000C28
+patch=1,EE,D0A124A2,extended,15008450
+patch=1,EE,20A2F6A8,extended,0641000B
+patch=1,EE,20A2F6AC,extended,00000000
+patch=1,EE,20A2F6B0,extended,8E280010
+patch=1,EE,20A2F6B4,extended,8D090000
+patch=1,EE,20A2F6B8,extended,31290040
+patch=1,EE,20A2F6BC,extended,11200005
+patch=1,EE,20A2F6C0,extended,00000000
+patch=1,EE,20A2F6C4,extended,00125040
+patch=1,EE,20A2F6C8,extended,024A9021
+patch=1,EE,20A2F6CC,extended,10000002
+patch=1,EE,20A2F6D0,extended,00000000
+patch=1,EE,20A2F6D4,extended,00129183
+patch=1,EE,20A2F6D8,extended,02128021
+patch=1,EE,20A2F6DC,extended,06010003
+patch=1,EE,20A2F6E0,extended,00000000
+patch=1,EE,20A2F6E4,extended,0828492C
+patch=1,EE,20A2F6E8,extended,00000000
+patch=1,EE,20A2F6EC,extended,0828492E
+patch=1,EE,20A2F6F0,extended,00000000
+patch=1,EE,20A124A4,extended,0828BDAA
+patch=1,EE,20A124A8,extended,00000000
+
+[Cheats\Easy Mode]
+author=dunjeon
+description=Deal 2x damage and take 1/2. Tick this or Story Mode, not both. Healing and EP stay the same. A hit still does at least 1.
+patch=1,EE,D0A1249A,extended,15000C28
+patch=1,EE,D0A124A2,extended,14008450
+patch=1,EE,20A2F6A8,extended,0641000A
+patch=1,EE,20A2F6AC,extended,00000000
+patch=1,EE,20A2F6B0,extended,8E280010
+patch=1,EE,20A2F6B4,extended,8D090000
+patch=1,EE,20A2F6B8,extended,31290040
+patch=1,EE,20A2F6BC,extended,11200004
+patch=1,EE,20A2F6C0,extended,00000000
+patch=1,EE,20A2F6C4,extended,00129140
+patch=1,EE,20A2F6C8,extended,10000002
+patch=1,EE,20A2F6CC,extended,00000000
+patch=1,EE,20A2F6D0,extended,00129143
+patch=1,EE,20A2F6D4,extended,02128021
+patch=1,EE,20A2F6D8,extended,06010003
+patch=1,EE,20A2F6DC,extended,00000000
+patch=1,EE,20A2F6E0,extended,0828492C
+patch=1,EE,20A2F6E4,extended,00000000
+patch=1,EE,20A2F6E8,extended,0828492E
+patch=1,EE,20A2F6EC,extended,00000000
+patch=1,EE,20A124A4,extended,0828BDAA
+patch=1,EE,20A124A8,extended,00000000
